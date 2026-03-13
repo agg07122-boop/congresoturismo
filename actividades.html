@@ -2,12 +2,89 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8">
-<title>Contacto</title>
-<link rel="stylesheet" href="style.css">
+<title>Itinerario</title>
+<link rel="stylesheet" href="estilos.css">
 </head>
 
 <body class="Actividades">
 
-<div class="actividades">
+<div class="sidebar_dos">
 
-<h1>Actividades</h1>
+<h1>Congreso Inclusivo</h1>
+
+<a href="login.html">
+<img src="logo.png" class="logo-menu">
+</a>
+
+</div>
+
+
+<div class="sidebar">
+
+<a href="info.html" class="boton_general">
+<span class="icono">ℹ️</span>
+<span class="texto">Información General</span>
+</a>
+
+<a href="actividades.html" class="boton_actividades">
+<span class="icono">📅</span>
+<span class="texto">Actividades</span>
+</a>
+
+<a href="registro.html" class="boton_registro">
+<span class="icono">📝</span>
+<span class="texto">Registro</span>
+</a>
+
+</div>
+
+
+<div class="contenido">
+
+<h1>Itinerario</h1>
+
+<img src="turismo.jpg" class="img_boton" onclick="mostrarActividad()">
+
+<div id="infoActividad" class="info_actividad">
+
+<h2>Ponencia Magistral</h2>
+
+<p>
+Esta actividad aborda el turismo inclusivo y su impacto
+en el desarrollo sostenible del sector turístico.
+</p>
+
+<h3>Itinerario</h3>
+
+<ul>
+<li>09:00 Registro</li>
+<li>09:30 Bienvenida</li>
+<li>10:00 Inicio de ponencia</li>
+<li>11:30 Preguntas</li>
+</ul>
+
+<a href="index.html" class="btn_regresar">Regresar al inicio</a>
+
+</div>
+
+</div>
+
+
+<script>
+
+function mostrarActividad(){
+
+var info = document.getElementById("infoActividad");
+
+if(info.style.display === "block"){
+info.style.display = "none";
+}else{
+info.style.display = "block";
+}
+
+}
+
+</script>
+
+</body>
+</html>

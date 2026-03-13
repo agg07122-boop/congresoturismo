@@ -206,3 +206,70 @@ body{
 .logo-header{
     width:50px;
 }
+
+
+.Actividades{
+    margin:0;
+    font-family:Arial;
+}
+
+.actividades{
+    margin-left: 370px;
+    margin-right: 370px;
+    margin-top: 120px;
+    padding:40px;
+    text-align:center;
+    color:#4D3427;
+}
+
+
+.actividades h1{
+    font-size:40px;
+    margin-bottom:30px;
+}
+
+.btn_inicio{
+    display:inline-block;
+    padding:10px 25px;
+    background:#F3ECDA;
+    color:#4D3427;
+    border-radius:25px;
+    text-decoration:none;
+    margin-bottom:40px;
+    border:2px solid #C89B3C;
+    transition:0.3s;
+}
+
+.btn_inicio:hover{
+    background:#E6C979;
+}
+
+.img_boton{
+width:300px;
+cursor:pointer;
+border-radius:10px;
+box-shadow:0 6px 10px rgba(0,0,0,0.3);
+transition:0.3s;
+}
+
+.img_boton:hover{
+transform:scale(1.05);
+}
+
+.info_actividad{
+display:none;
+margin-top:30px;
+background:#F3ECDA;
+padding:25px;
+border-radius:10px;
+}
+
+.btn_regresar{
+display:inline-block;
+margin-top:20px;
+padding:10px 20px;
+background:#4D3427;
+color:white;
+text-decoration:none;
+border-radius:20px;
+}
